@@ -1,22 +1,43 @@
 import React from 'react'
-import axios from 'axios'
+import './App.css';
+
+// import bootsrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function App() {
-  
-  const get_data = () => {
-    axios.get("http://127.0.0.1:8000/api/products").then(
-    res => {
-      console.log(res)
-    }
-    );
-};
-  
-  return <div className="App">
-      Hello
+class App extends React.Component {
+    
 
-      <button onClick={get_data}>Get Data</button>
-    </div>
+  render(){
+
+    return(
+      <div className='container'>
+
+
+      <div id="product-container">
+        {/* 2 sub containers for form and list */}
+        <div id="form-wrapper">
+          <form action="">
+            <div>
+              <input type="text" name="product" id="product-input" placeholder="Add a product"/>
+            </div>
+            <div>
+              <button type="submit">Add</button>
+            </div>
+          </form>
+        </div>
+
+        <div id="list-wrapper">
+
+        </div>
+
+      </div>
+
+      </div>
+    )
+  }
 }
+  
+
 
 export default App;
