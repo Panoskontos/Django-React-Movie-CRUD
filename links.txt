@@ -1,5 +1,3 @@
-movie link
-https://ordinarycoders.com/blog/article/django-react-crud-application
 
 axios tutorial
 https://www.freecodecamp.org/news/how-to-use-axios-with-react/#how-to-make-a-get-request
