@@ -1,52 +1,23 @@
-body{
 
+
+body{
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 49%);
 }
 
 
-
+.buttons button{
+  border-radius: 5px;
+}
 
 
 
 
 .container {
-  max-width: 600px;
-  background-color: white;
-  margin: 100px auto;
+  max-width: 100%;
+  background-color: rgb(243, 243, 243);
+  padding:50px;
+  margin: 100px 50px;
   border-radius: 10px;
-  justify-content:space-around;
-  align-items: flex-start;
-
 }
 
-
-form {
-  padding: 40px;
-  box-shadow: 12px 12px 2px 1px rgba(212, 212, 212, 0.2);
-  display:flex;
-  align-items: center;
-  justify-content:center;
-}
-
-form button {
-  background-color: burlywood;
-  padding:5px 20px;
-  border-radius: 10px;
-  color: white;
-  border: none;
-  margin-left: 10px;
-}
-
-form input {
-  border-radius: 10px;
-  width:500px;
-  padding:5px 10px;
-  border: 1px solid grey;
-  box-shadow: 5px 5px 5px rgb(224, 224, 224);
-}
-
-form input:focus {
-  box-shadow: 5px 5px 5px rgb(170, 170, 170);
-  outline:none;
-}
